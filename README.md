@@ -37,16 +37,10 @@ NLTK (sentence tokenizing)
 Setup Instructions
 Clone this repo or copy the code
 
-(Optional) It’s better to make a virtual environment:
-
-
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
 Install dependencies:
 
 
 pip install spacy torch transformers sklearn nltk
-Download the spaCy model and nltk punkt (automatic in code, but just in case):
 
 
 python -m spacy download en_core_web_sm
@@ -62,12 +56,7 @@ python -m spacy download en_core_web_sm
 streamlit run app2.py
 
 
-Notes
+Note:
 The default sample demonstrates how everything works; you can plug in your own medical dialogue.
 
-Modify the regex patterns in the code for different symptoms or diagnosis rules.
-
-Output includes JSON for summaries and standard printouts.
-
-This is just a prototype. For real clinical use, further validation is definitely needed.
 
