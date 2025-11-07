@@ -21,6 +21,19 @@ scikit-learn (TF-IDF keyword extraction)
 
 NLTK (sentence tokenizing)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Setup Instructions
 Clone this repo or copy the code
 
@@ -38,6 +51,8 @@ Download the spaCy model and nltk punkt (automatic in code, but just in case):
 
 python -m spacy download en_core_web_sm
 python -c "import nltk; nltk.download('punkt')"
+
+
 Run:
 
 
@@ -55,3 +70,4 @@ Modify the regex patterns in the code for different symptoms or diagnosis rules.
 Output includes JSON for summaries and standard printouts.
 
 This is just a prototype. For real clinical use, further validation is definitely needed.
+
