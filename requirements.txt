@@ -1,6 +1,25 @@
-spacy>=3.5.0
-transformers>=4.30.0
-torch>=2.0.0
-scikit-learn>=1.2.0
-nltk>=3.8.0
-numpy>=1.24.0
+# Medical Transcript NLP Analyzer - Requirements
+# Python 3.8+
+
+# Core NLP
+spacy==3.7.2
+transformers==4.35.2
+torch==2.1.0
+nltk==3.8.1
+scikit-learn==1.3.2
+
+# Web app
+streamlit==1.29.0
+
+# Data handling
+pandas==2.1.3
+numpy==1.26.2
+
+# Visualization
+plotly==5.18.0
+
+# Utilities
+python-dateutil==2.8.2
+
+# For spaCy model (run after pip install)
+# python -m spacy download en_core_web_sm
