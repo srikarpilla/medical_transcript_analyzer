@@ -41,7 +41,11 @@ python -c "import nltk; nltk.download('punkt')"
 Run:
 
 
-python medical_transcript_analyzer.py
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+
+streamlit run app2.py
+
 
 Notes
 The default sample demonstrates how everything works; you can plug in your own medical dialogue.
